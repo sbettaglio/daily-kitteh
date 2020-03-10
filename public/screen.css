@@ -9,4 +9,108 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-color: rgb(58, 137, 158);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.9rem;
+  color: rgb(52, 66, 85);
+  background-color: rgb(214, 240, 240);
+  margin-top: 0.4rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0rem;
+}
+
+nav {
+  background-color: rgb(84, 189, 210);
+  align-items: center;
+  padding: 0.001rem;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  color: rgb(214, 240, 240);
+}
+
+li a {
+  color: rgb(214, 240, 240);
+  padding: 1rem;
+}
+
+main {
+  margin-top: 0;
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: rgb(214, 240, 240);
+  display: flex;
+}
+
+img {
+  height: 17rem;
+  width: 17rem;
+}
+
+.kitteh {
+  border: solid 0.01rem rgb(62, 146, 165);
+  padding-top: 0.25rem;
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+  /* padding-bottom: 1rem; */
+  margin-bottom: 3rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.kitteh p {
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 1.9rem;
+  color: rgb(52, 66, 85);
+}
+
+.kitteh ul li {
+  justify-content: center;
+  padding-left: 1rem;
+  font-size: 1.4rem;
+}
+
+.busy-kitty {
+  display: flex;
+  flex-direction: column;
+  padding-left: 2rem;
+  padding-top: 1rem;
+}
+
+.busy-kitty p {
+  padding-right: 2rem;
+}
+
+footer {
+  background-color: rgb(201, 201, 201);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+footer li a {
+  color: rgb(16, 16, 16);
+  padding: 0.5rem;
 }
